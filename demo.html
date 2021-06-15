@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d40ac1866c.js" crossorigin="anonymous"></script>
+    <title>Surbhi_Official | FrontEnd Developer | Social Person</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        #nav::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+        }
+
+
+        body {
+            height: 4600px;
+            /* background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(252, 251, 248));  */
+            /* background-image: linear-gradient(180deg, rgb(5, 2, 2), rgb(252, 252, 249)); */
+            background-color: black;
+
+        }
+
+        #nav {
+            /* margin-top: 10px; */
+            display: flex;
+            flex-direction: row-reverse;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: black;
+
+        }
+
+        #nav>a {
+            font-size: 15px;
+            text-decoration: none;
+            color: rgb(250, 246, 246);
+            margin: 20px 8px;
+
+
+        }
+
+        #nav>a:hover {
+            cursor: pointer;
+            color: rgb(70, 68, 68);
+            /* border-bottom: 3px solid black; */
+            /* box-shadow: 4px 4px 10px black ; */
+        }
+
+        .navClass::before {
+            content: "|";
+            color: rgb(78, 77, 77);
+            /* margin: 0px 8px ; */
+            margin-right: 10px;
+            margin-left: -5px;
+        }
+
+        #grad1 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 2rem;
+            height: 670px;
+            /* background-color: red; */
+            /* For browsers that do not support gradients */
+            /* background: url('image2.jpg'); */
+            background: url('bkphoto.jpg')no-repeat center;
+            /* opacity: 3; */
+            /* z-index: 6; */
+            /* background-image: linear-gradient(to right, rgb(56, 54, 54), rgb(143, 143, 34)); */
+        }
+
+        .box2 {
+
+            display: block;
+            text-align: center;
+            /* z-index: 1; */
+        }
+
+        .box3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
+            font-size: 25px;
+            text-decoration: none;
+            color: rgb(203, 236, 17);
+
+        }
+
+        .box3:hover {
+            cursor: pointer;
+            color: rgb(0, 0, 2);
+            font-weight: bold;
+        }
+
+        #post::before {
+            content: "|";
+            color: rgb(248, 245, 245);
+            /* margin: 0px 8px ; */
+            margin-right: 10px;
+            margin-left: -5px;
+        }
+
+        #post1::before {
+            content: "|";
+            color: rgb(252, 250, 250);
+            /* margin: 0px 8px ; */
+            margin-right: 10px;
+            margin-left: -5px;
+        }
+
+        .box2>h1 {
+            color: white;
+            font-family: fantasy;
+            font-weight: bold;
+
+        }
+
+        .btn {
+            background-color: rgb(5, 5, 5);
+            margin-top: 100px;
+            color: aqua;
+            height: 50px;
+            font-size: 20px;
+            width: 200px;
+        }
+
+        .btn>a {
+            text-decoration: none;
+            font-family: fantasy;
+            color: aqua;
+
+        }
+
+        .about {
+            margin-top: 150px;
+            margin-left: 200px;
+            display: block;
+            background-image: linear-gradient(to left, rgb(201, 150, 12), white);
+            /* background-color: rgb(241, 241, 235); */
+            background-color: white;
+            /* margin:auto */
+            /* background-color: aqua; */
+            animation-name: surbhi;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            /* animation-delay: 3s; */
+            animation-direction: forwards;
+        }
+
+        @keyframes surbhi {
+            from {
+                width: 600px;
+            }
+
+            to {
+                width: 100%;
+
+            }
+        }
+
+        .experience {
+            margin-top: 150px;
+            margin-left: 200px;
+            display: block;
+            background-color: white;
+            /* background-color: aqua; */
+            /* margin:auto */
+            animation-name: surbhi;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            /* animation-delay: 3s; */
+            animation-direction: forwards;
+            background-image: linear-gradient(to left, red, white);
+
+        }
+
+        .Education {
+            margin-top: 150px;
+            background-color: white;
+            margin-left: 400px;
+            display: flex;
+            /* background-color: aqua; */
+            animation-name: surbhi;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            /* animation-delay: 3s; */
+            animation-direction: forwards;
+            background-image: linear-gradient(to left, cyan, white);
+        }
+
+        .knowledge_stack {
+            margin-top: 150px;
+            background-color: white;
+            margin-left: 400px;
+            display: flex;
+            /* background-color: aqua; */
+            animation-name: surbhi;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            /* animation-delay: 3s; */
+            animation-direction: forwards;
+            background-image: linear-gradient(to left, rgb(26, 228, 43), white);
+        }
+
+        .Research_paper {
+            margin-top: 150px;
+            background-color: white;
+            margin-left: 200px;
+            display: flex;
+            /* background-color: aqua; */
+            animation-name: surbhi;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            /* animation-delay: 3s; */
+            animation-direction: forwards;
+            background-image: linear-gradient(to left, rgb(241, 25, 223), white);
+        }
+
+        .heading {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(51, 2, 3);
+        }
+
+        .graduation {
+            display: flex;
+        }
+
+        .grad_heading {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .edu_12_10 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .know_stack {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .edu_icon {
+            display: flex;
+        }
+
+        .Experience {
+            margin-left: 200px;
+            margin-top: 150px;
+        }
+
+        .Exp_heading {
+            display: flex;
+
+        }
+
+        .bk_prog {
+            background-image: linear-gradient(to left, rgb(26, 228, 43), white);
+
+        }
+
+        .progressbar_a {
+            height: 20px;
+            width: 20px;
+            position: relative;
+            background-color: black;
+            animation-name: progressbar_a;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            /* animation-delay: 3s; */
+            animation-direction: forward;
+
+        }
+
+        @keyframes progressbar_a {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 85%;
+
+            }
+        }
+
+        .progressbar_b {
+            height: 20px;
+            width: 20px;
+            position: relative;
+            background-color: black;
+            animation-name: progressbar_b;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            /* animation-delay: 3s; */
+            animation-direction: forward;
+
+        }
+
+        @keyframes progressbar_b {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 60%;
+
+            }
+        }
+
+        .progressbar_c {
+            height: 20px;
+            width: 20px;
+            position: relative;
+            background-color: black;
+            animation-name: progressbar_c;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            /* animation-delay: 3s; */
+            animation-direction: forward;
+
+        }
+
+        @keyframes progressbar_c {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 50%;
+
+            }
+        }
+
+        .progressbar_d {
+            height: 20px;
+            width: 20px;
+            position: relative;
+            background-color: black;
+            animation-name: progressbar_d;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            /* animation-delay: 3s; */
+            animation-direction: forward;
+
+        }
+
+        @keyframes progressbar_d {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 75%;
+
+            }
+        }
+
+        .proj_img {
+            display: flex;
+           
+        }
+      
+        #travel {
+            transition: all 1s ease-in-out ;
+
+        }
+        #travel:hover{
+            transform: scale(1.2);
+        }
+        #gym{
+            transition: all 1s ease-in-out ;
+
+        }
+        #food{
+            transition: all 1s ease-in-out ;
+
+        }
+        #resume{
+            transition: all 1s ease-in-out ;
+
+        }
+        #food:hover{
+            transform: scale(1.2);
+        }
+        #gym:hover{
+            transform: scale(1.2);
+        }
+        #resume:hover{
+            transform: scale(1.2);
+        }
+
+
+        .proj_img2 {
+            margin-top: 150px;
+            display: flex;
+        }
+      .web_img {
+            height: 400px;
+            width: 750px;
+            /* box-shadow: 0px 4px 10px white; */
+            /* box-shadow: 5px 11px 15px darkgrey; */
+            margin: 20px;
+        }
+
+        .lastest_project>h1 {
+            color: white;
+            display: block;
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 100px;
+            font-size: 3rem;
+            font-family: fantasy;
+        }
+        .contact>h1{
+            color: white;
+            display: block;
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 50px;
+            font-size: 3rem;
+            font-family: fantasy;
+        }
+        .contact>p{
+            color: white;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            /* margin-top: 200px; */
+            /* margin-bottom: 50px; */
+            font-size: 2rem;
+            font-family: cursive;
+            /* display: flex; */
+            /* margin-left: 200px; */
+            /* text-justify: newspaper; */
+        }
+        .contact>p>a {
+            text-decoration: none;
+            color: white;
+        }
+        /* a>img{
+            height: 50px;
+            width: 50px;
+            border-radius: 20px;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <navbar id="nav">
+            <a href="" style="margin-right: 50px;" class="navClass">CONNECT</a>
+            <a href="#research_id" class="navClass">RESEARCH PAPERS </a>
+            <a href="#Knowledge_id" class="navClass">KNOWLEDGE STACK</a>
+            <a href="#experience_id" class="navClass">EXPERIENCE</a>
+            <a href="#education_id" class="navClass">EDUCATION</a>
+            <a href="#about_id" class="navClass">ABOUT ME</a>
+            <a href="">PROFILE</a>
+            <a href="" style="margin-right: 300px; font-size: 30px; text-shadow:4px 4px 10px white;">S U R B H I. </a>
+        </navbar>
+        <div id="grad1">
+            <div class="box2">
+                <!-- <img src="prog1.jpeg" alt="" style="height: 40px; width: 40px;"> -->
+                <h1>
+                    HEY, SURBHI here !!
+                </h1>
+
+                <a href="" class='box3'>FrontEnd Developer</a>
+                <a href="President.png" target="_blank" class="box3" id="post1">PRESIDENT, DU (2020-21)</a>
+                <a href="Cultural_Sec.png" target="_blank" class="box3" id="post">CULTURALSEC,DU(2019-20)</a>
+                <div>
+                    <button class="btn">
+                        <a href="Surbhi_CV/cv.jpeg" target="_blank"> Sight CV</a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="about" id="about_id">
+
+            <div style="display: flex;">
+                <img src="About.png" style="height: 200px; width: 200px;" alt="" srcset="">
+                <span
+                    style="margin-top: 35px;   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    <span class="heading"> About Me</span>
+                    <p
+                        style="  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: darkslategrey;">
+                        Enthusiast | JSLover | Fast Learner | Management Skills at Peak
+                    </p>
+                    <br>
+                    <p style=" font-family:fantasy;">
+                        A Person, who loves to explore Technologies , Places,
+                        Especially (Coffee).
+                    </p>
+            </div>
+
+        </div>
+        <div class="Education" id="education_id">
+            <img src="book.jpeg" style="height: 200px;width: 200px;" alt="">
+            <span
+                style="margin-top: 35px;   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                <div class="graduation">
+                    <div class="grad_heading">
+
+                        <span class="heading" style="margin-top: 20px;">
+                            Education
+                        </span>
+                        <p
+                            style="  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: darkslategrey; ">
+                            Currently Pursuing Graduation | BSc. (Hons.) CS , IPCW(Delhi University)
+
+                        </p>
+                    </div>
+                    <i class="fas fa-university fa-3x" style="margin-top: 30px;"></i>
+                </div>
+                <br>
+                <div class="edu_icon">
+
+                    <div class="edu_12_10">
+
+                        <p style=" font-family:fantasy;">
+                            Senior Secondary (XII) - 9.1 Cpga
+                            kendriya Vidyalaya, OFM , 2018
+                        </p>
+                        <p style=" font-family:fantasy;">
+                            Secondary(X) - 10 Cpga
+                            Kendriya Vidyalaya, OFM , 2016
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-school fa-2x" style="margin-top: 10px; color: rgb(156, 151, 151);"></i>
+                    </div>
+                </div>
+            </span>
+
+        </div>
+        <!-- <div class="Experience">
+            <div class="Exp_heading">
+                <img src="experience.png" alt="" style="height: 200px;width: 200px;">
+                <div>
+                    <span class="heading" style="margin-top: 20px;"> Experience</span>
+                    <p style="  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: darkslategrey;">
+                        Currently Working on my Skills
+                    </p>
+                </div>
+            </div>
+        </div> -->
+        <div class="experience" id="experience_id">
+
+            <div style="display: flex;">
+                <img src="experience.png" style="height: 200px; width: 200px;" alt="" srcset="">
+                <span
+                    style="margin-top: 35px;   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    <span class="heading">Experience</span>
+                    <p
+                        style="  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: darkslategrey;">
+                        At Present, Developing Skills in Web Development.
+                    </p>
+                    <br>
+                    <a href="Grad2live.png" target="_blank" style="text-decoration: none; color: black;">
+                        <p style=" font-family:fantasy;">
+                            * Did INTERNSHIP at Grad2live- as Front-End Developer , Designed Widgets in <strong>
+                                FLUTTER. </strong>
+                        </p>
+                        <p style=" font-family:fantasy; margin-left: 10px;">
+                            Duration was 20'July - 20' September 2020.
+                        </p>
+                    </a>
+            </div>
+
+        </div>
+        <div class="knowledge_stack" id="Knowledge_id">
+            <img src="stack.png" style="height: 200px;width: 200px;" alt="">
+            <span
+                style="margin-top: 35px;   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                <div class="graduation">
+                    <div class="grad_heading">
+
+                        <span class="heading" style="margin-top: 20px;">
+                            Knowledge_stack
+                        </span>
+                        <p
+                            style="  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: darkslategrey; ">
+                            Nowadays, Working on React Js for Strengthing my FrontEnd Skill.
+                        </p>
+                        <div class="know_stack">
+                            <br>
+                            <span style="font-family: fantasy;"> HMTL & CSS</span>
+                            <div class="bk_prog">
+                                <div class="progressbar_a">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="know_stack">
+                            <br>
+                            <span style="font-family: fantasy;"> C++</span>
+                            <div class="bk_prog">
+                                <div class="progressbar_b">
+                                </div>
+                            </div>
+                            <div class="know_stack">
+                                <br>
+                                <span style="font-family: fantasy;"> Js|Java|Python|Dart</span>
+                                <div class="bk_prog">
+                                    <div class="progressbar_c">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="know_stack">
+                                <br>
+                                <span style="font-family: fantasy;">familiarity IDEs - VSCode| Sublime|Android
+                                    Studio</span>
+                                <div class="bk_prog">
+                                    <div class="progressbar_d">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </span>
+
+
+        </div>
+
+    </div>
+    <div class="Research_paper" id="research_id">
+
+        <div style="display: flex;">
+            <img src="paper.png" style="height: 250px; width: 250px;" alt="" srcset="">
+            <span
+                style="margin-top: 35px;   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                <span class="heading">Research Papers</span>
+                <p
+                    style="  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: darkslategrey;">
+                    Planning For Another Research paper "How Human Pronounce New words Perfectly."
+                </p>
+                <br>
+                <p style=" font-family:fantasy;">
+                    # Research paper on “ Analysis of Twitter Reviews on Covid 19” , 8th October 2020. <strong>
+                        (published in IPCW Journal )</strong>
+                </p>
+                <p style=" font-family:fantasy;">
+                    # Research paper on “ Categorizing the affected states of India in terms of Bird flu impact” , 17th
+                    February 2021.
+                    <strong>(published in IPCW Journal )</strong>
+                </p>
+        </div>
+    </div>
+    <div class="lastest_project">
+        <h1>Lastest Projects</h1>
+        <div class="proj_img">
+            <img src="travellingWebsite.png" alt="" class="web_img" id="travel">
+            <img src="foodWebsite.png" alt="" class="web_img" id="food">
+        </div>
+        <div class="proj_img2">
+            <img src="gymWebsite.png" alt="" class="web_img" id="gym">
+            <img src="resumeWebsite.png" alt="" class="web_img" id="resume">
+        </div>
+    </div>
+    <div class="contact">
+        <h1 >
+            Contact
+        </h1>
+        <p>
+            <a href= "" >  Email- hrsurbhi1512@gmail.com </a>
+           
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/surbhi- official-15a90a1b1/" target="_blank" > 
+                LinkedIn- https://www.linkedin.com/in/surbhi- official-15a90a1b1/ </a>
+            
+        </p>
+        <p>
+            <a href= "https://twitter.com/Surbhi32582033"  target="_blank" > Twitter - https://twitter.com/Surbhi32582033</a>
+            
+        </p>
+    </div>
+
+</body>
+
+</html>
